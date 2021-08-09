@@ -1,8 +1,8 @@
-module org.sqlite.sqlite {
+module org.sqlite.sqlite.jdbc {
     requires java.logging;
     requires java.sql;
     //requires org.slf4j;  //deleted this
-  
+
     exports org.sqlite;
     exports org.sqlite.core;
     exports org.sqlite.date;
@@ -12,3 +12,5 @@ module org.sqlite.sqlite {
     exports org.sqlite.util;
 
 }
+
+
